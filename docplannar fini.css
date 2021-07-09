@@ -1,0 +1,251 @@
+* {
+    margin: 0%;
+}
+
+h1 {
+    margin: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+select {
+    color: gray;
+    font: inherit;
+    margin: 0;
+    width: 40%;
+    background: white;
+    border: 0;
+    border-radius: 2px;
+    padding: 0 0;
+    height: 40px;
+}
+
+.navbar-nav:hover {
+    fill: #00b39b;
+}
+
+.nav-item-active {
+    color: #59b7a0
+}
+
+.healthcare {
+    margin: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    color: #00b39b;
+    font-size: 2.125rem;
+    text-align: center;
+}
+
+.paragraphe1 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    margin: 0 -10px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 40px;
+}
+
+.service-card-patient {
+    background-color: #64ccb2;
+    margin: 20px 0;
+    color: #fff;
+    border-radius: 5%;
+    margin-right: 20px;
+    padding-bottom: 180px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.service-card-doctor {
+    background-color: #4383df;
+    margin: 20px 0;
+    color: #fff;
+    border-radius: 5%;
+    margin-right: 20px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.service-card-clinics {
+    background-color: #1b2734;
+    margin: 20px 0;
+    color: #fff;
+    border-radius: 5%;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.service-card-content {
+    padding-top: 70px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+svg_starts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+svg,
+.class-class {
+    margin-left: 30px;
+    width: 120px;
+    fill: rgb(177, 177, 177);
+    transition: fill 0.3s;
+}
+
+svg:hover {
+    fill: #56c0a6;
+}
+
+.global_company {
+    color: #56c0a6;
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+.green_section {
+    background: rgb(211, 245, 246);
+    background: linear-gradient( 79deg, rgba(211, 245, 246, 1) 0%, rgba(223, 248, 247, 1) 100%);
+    margin: 80px auto;
+}
+
+.green_section__left h2 {
+    color: #51b49b;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.mini_card {
+    background: white;
+    border-radius: 6px;
+    margin: 11px;
+    height: 250px;
+    box-shadow: 0px 2px 6px #0000001f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mini_card h3 {
+    font-size: 25px;
+    color: #56c0a6;
+    margin: 10px 0;
+}
+
+.mini_card p {
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+}
+
+.mini_card:nth-child(2) {
+    transform: translateY(-35px);
+}
+
+.green_section__left {
+    position: relative;
+    overflow: hidden;
+}
+
+.green_section_left__img {
+    position: absolute;
+    left: 0;
+}
+
+.green_section__right {
+    padding-bottom: 15px;
+}
+
+.improve_section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 80px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.improve_section h1 {
+    font-size: 25px;
+    color: #51b49b;
+    margin-bottom: 20px;
+}
+
+.improve_section p {
+    font-size: 18px;
+    color: rgb(133, 133, 133);
+    width: 80%;
+}
+
+.country-img {
+    width: 300px;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.country-card_info p {
+    margin: 0;
+}
+
+.country-card_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.join-us,
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.footer-page {
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .country-list {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-y: scroll;
+    }
+    .country-card {
+        margin-right: 10px;
+    }
+    .mycontainer {
+        width: 100% !important;
+    }
+}
